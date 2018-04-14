@@ -1,0 +1,102 @@
+.body-header{
+	background-color: #eee;
+	padding: 40px 60px;
+}
+.body-header h4{
+	font-size: 1.6rem;
+	color: #666666;
+	margin: 0;
+}
+.body-header h1{
+	font-size: 2.8rem;
+	color: black;
+	margin: 15px 0px;
+}
+.body-header .header-footer{
+	color: #aaa;
+	font-size: 1.4rem;
+}
+/*************************body右部分*****************************/
+.article{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.article-content{
+	font-size: 1.6rem;
+	/*word-spacing:initial;*/
+	text-indent: 30px;
+}
+.article-tag{
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+/*.article-tag a{
+	text-decoration: none;
+}*/
+
+.article-related{
+	padding: 2rem 0;
+}
+.article-related h3,.article-discuss h3{
+	margin: 0px 0px 1rem 0px;
+	font-size: 2.2rem;
+}
+.article-related ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.article-related ul>li{
+	margin-bottom: 1rem;
+}
+.article-related ul>li>span{
+	font-size: 1.5rem;
+	color: #666;
+}
+.article-related .time{
+	padding-left: 15px;
+	font-size: 1.4rem;
+	color: #aaa;
+}
+#editor div,.w-e-toolbar .w-e-menu,.w-e-text-container{
+	z-index: 0;
+}
+
+/*************************媒体查询*****************************/
+@media (max-width: 767px){ 
+	/*//>=768的设备*/ 
+	/*****顶部图片*****/
+	.body-header{
+		margin-top: 4rem;
+		padding: 20px 20px;
+	}
+}
+@media (min-width: 768px){ 
+	/*//>=768的设备*/ 
+	.body-header{
+		margin-top: 5rem;
+		padding: 30px 20px;
+	}
+}
+@media (min-width: 992px){ 
+	/*//>=992的设备*/ 
+	.body-header{
+		margin-top: 5rem;
+		padding: 30px 20px;
+	}
+}
+@media (min-width: 1024px){ 
+	/*//>=1024的设备*/ 
+	.body-header{
+		margin-top: 7.5rem;
+		padding: 30px 40px;
+	}
+}
+@media (min-width: 1200px){ 
+	/*//>=1200的设备*/ 
+	.body-header{
+		background-color: #eee;
+		padding: 40px 60px;
+	}
+}

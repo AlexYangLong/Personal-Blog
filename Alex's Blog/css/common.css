@@ -1,0 +1,192 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	/*background-color: #ebebeb;*/
+	font: 1em Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,"Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*************************nav部分*****************************/
+.main-nav{
+	margin: 0;
+	border-radius: initial;
+}
+#nav-menu>ul>li>a{
+	padding: 0px 20px;
+	line-height: 7.5rem;
+	font-size: 1.8rem;
+}
+#nav-menu>ul>li>a:hover{
+	background-color: #33CC66;
+}
+.main-nav .navbar-header .navbar-brand{
+	padding: 0px 20px;
+	line-height: 7.5rem;
+	font-size: 1.8rem;
+	height: 7.5rem;
+}
+.navbar-header button{
+	margin: 2rem 1.8px;
+	line-height: 7.5rem;
+}
+
+
+.main-body{
+	margin-top: 1rem;
+}
+/*************************主体右部************************/
+.main-body .cloud-title{
+	margin: 30px 0px 0px;
+	font-size: 2.6rem;
+	font-weight: normal;
+}
+.cloud-content{
+	margin-top: 10px;
+	border-top: 1px solid #f2f2f2;
+}
+.cloud-content{
+	padding-top: 10px;
+}
+/*******搜索框*******/
+.cloud-content .searchbox{
+	width: 70%;
+	line-height: 28px;
+	padding: 5px 10px;
+	font-size: 16px;
+	color: #666;
+	border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+}
+.cloud-content .btn-search{
+	width: 28%;
+	height: 40px;
+	padding: 5px 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+    border-radius: 0px 3px 3px 0px;
+    line-height: 30px;
+}
+
+.cloud-content a{
+	color: #959595;
+	padding: 2px 7px;
+	font-size: 14px;
+	margin: 5px 7px 0px 0px;
+	border: 1px solid #959595;
+	text-decoration: none;
+	display: inline-block;
+}
+.cloud-content a:hover{
+	background-color: #33CC66;
+	outline: none;
+	color: white;
+	border-color: #33CC66;
+}
+
+/**********************footer部分***********************/
+.main-footer{
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: #202020;
+}
+.footer-block{
+	padding: 30px;
+	margin-bottom: 30px;
+}
+.footer-title{
+	margin: 0px 0px 30px 0px;
+	font-size: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #33CC66;
+	color: white;
+}
+.footer-content a{
+	color: #959595;
+	padding: 2px 7px;
+	font-size: 14px;
+	margin: 0px 7px 7px 0px;
+	/*border: 1px solid #959595;*/
+	text-decoration: none;
+	display: inline-block;
+}
+.footer-content a:hover{
+	background-color: #33CC66;
+	outline: none;
+	color: white;
+	border-color: #33CC66;
+}
+
+/**********************copyright部分***********************/
+.copyright{
+	border-top: 1px solid #303030;
+	padding: 20px 0px;
+	text-align: center;
+	background-color: black;
+	color: #555555;
+}
+
+/*************************媒体查询*****************************/
+@media (max-width: 767px){ 
+	/*//>=768的设备*/ 
+	.main-nav .navbar-header .navbar-brand{
+		line-height: 4rem;
+		font-size: 1.3rem;
+		height: 4rem;
+	}
+	#nav-menu>ul>li>a{
+		line-height: 4rem;
+		font-size: 1.3rem;
+	}
+	.navbar-header button{
+		margin: 0.58rem 2rem;
+		line-height: 4rem;
+	}
+}
+@media (min-width: 768px){ 
+	/*//>=768的设备*/ 
+	.main-nav .navbar-header .navbar-brand{
+		line-height: 5rem;
+		font-size: 1.5rem;
+		height: 5rem;
+	}
+	#nav-menu>ul>li>a{
+		line-height: 5rem;
+		font-size: 1.5rem;
+	}
+}
+@media (min-width: 992px){ 
+	/*//>=992的设备*/ 
+	.main-nav .navbar-header .navbar-brand{
+		line-height: 5rem;
+		font-size: 1.5rem;
+		height: 5rem;
+	}
+	#nav-menu>ul>li>a{
+		line-height: 5rem;
+		font-size: 1.5rem;
+	}
+}
+@media (min-width: 1024px){ 
+	/*//>=1024的设备*/ 
+	.main-nav .navbar-header .navbar-brand{
+		line-height: 7.5rem;
+		font-size: 1.8rem;
+		height: 7.5rem;
+	}
+	#nav-menu>ul>li>a{
+		line-height: 7.5rem;
+		font-size: 1.8rem;
+	}
+}
+@media (min-width: 1200px){ 
+	/*//>=1200的设备*/ 
+}
